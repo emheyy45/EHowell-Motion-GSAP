@@ -5175,10 +5175,10 @@
 
 
   var mainTL = gsapWithCSS.timeline({paused:true});
+
   mainTL.add(squareTAnimation())
-  //.addLabel("blue")
-  .addPause()
   .add(ballMAnimation())
-  .add(textAnimation());
+  .add(textAnimation())
+  .play();
 
 }());
