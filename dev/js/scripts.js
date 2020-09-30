@@ -1,3 +1,15 @@
-import * as Demo from './demo.js';
+//import * as Demo from './demo.js';
 
-console.log(Demo);
+import {gsap} from "gsap";
+import {squareTAnimation} from './squareT.js';
+import {ballMAnimation} from './ballM.js';
+import {textAnimation} from './text.js';
+
+
+var mainTL = gsap.timeline({paused:true});
+mainTL.add(squareTAnimation())
+//.addLabel("blue")
+.addPause()
+.add(ballMAnimation())
+.add(textAnimation());
+

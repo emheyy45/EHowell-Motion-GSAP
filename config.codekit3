@@ -70,12 +70,23 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/ballM.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
+		"oAP": "/dev/js/ballM-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/demo.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "/dev/js/demo-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -85,10 +96,32 @@
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/squareT.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/squareT-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/text.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/text-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -291,7 +324,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/package-lock-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -299,7 +332,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/package-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		}
@@ -311,7 +344,7 @@
 "projectAttributes": {
 	"creationDate": 622852666.37431097,
 	"displayValue": "EHowell-Motion-GSAP",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 0
 	},
@@ -2407,7 +2440,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "/storage/framework/sessions,_logs,logs,log,.idea,_cache,cache,node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
